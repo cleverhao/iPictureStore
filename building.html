@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片仓库-图片库</title>
+    <!--设置标签图标-->
+    <link rel="shortcut icon" href="images/camera.ico">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/goods_list.css">
+    <link rel="stylesheet" href="css/next_page.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/foundation/5.5.3/css/foundation.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/foundation/5.5.3/js/foundation.min.js"></script>
+    <script src="https://cdn.staticfile.org/foundation/5.5.3/js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/photo.js"></script>
+    <script>
+        $(document).ready(function function_name() {
+            changeImg()
+        })
+    </script>
+</head>
+
+<body>
+    <!-- 头部-->
+    <div id="header">
+        <!--顶部 登录-->
+        <div class="header_top">
+            <!-- 中部 -->
+            <div class="header_top_center">
+                <!-- 中部左侧 -->
+                <div class="h_top_left">
+                    欢迎来到 图片仓库 iPictureStore
+                </div>
+            </div>
+        </div>
+        <!-- 中部搜索 -->
+        <div class="header_center">
+            <!-- 中部左边logo -->
+            <div class="h_c_logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <!-- <div class="h_c_search">
+                <form action="#">
+                    <input type="text" placeholder="请输入..." class="t_input">
+                    <input type="submit" class="t_button" value="搜索">
+                </form>
+
+                <div class="hot">
+                    <a href="#">山川</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">沙漠</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">星空</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">静物</a>
+                </div>
+
+            </div> -->
+            <!--中部右边-->
+            <div class="h_c_code">
+                <img src="images/code.jpg" alt="">
+            </div>
+        </div>
+        <!--底部导航-->
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">图片库</a></li>
+                <li><a href="#">活泼动物</a></li>
+                <li><a href="#">自然植物</a></li>
+                <li><a href="#">街道建筑</a></li>
+                <li><a href="#">餐饮美食</a></li>
+                <li><a href="#">绘画涂鸦</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="ms_top">
+        <span>街道建筑</span>
+        <span>自然中的和谐之美</span>
+    </div>
+    <ul class="clearing-thumbs" data-clearing>
+        <li>
+            <a href="images/gallery/01.jpg" class="th">
+                <img src="images/gallery/01.jpg" alt="" />
+                <p class="name">蜿蜒楼山</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/02.jpg" class="th">
+                <img src="images/gallery/02.jpg" alt="">
+                <p class="name">亦楼长墙</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/03.jpg" class="th">
+                <img src="images/gallery/03.jpg" alt="">
+                <p class="name">楼关绿山</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/04.jpg" class="th">
+                <img src="images/gallery/04.jpg" alt="">
+                <p class="name">城市之夜</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/08.jpg" class="th">
+                <img src="images/gallery/08.jpg" alt="">
+                <p class="name">川映长城</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/09.jpg" class="th">
+                <img src="images/gallery/09.jpg" alt="">
+                <p class="name">楼建托日</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/12.jpg" class="th">
+                <img src="images/gallery/12.jpg" alt="">
+                <p class="name">日落车流</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/13.jpg" class="th">
+                <img src="images/gallery/13.jpg" alt="">
+                <p class="name">清新阳楼</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/14.jpg" class="th">
+                <img src="images/gallery/14.jpg" alt="">
+                <p class="name">绚烂云市</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="images/gallery/15.jpg" class="th">
+                <img src="images/gallery/15.jpg" alt="">
+                <p class="name">云铺红楼</p>
+                <div class="photoby">
+                    <img src="images/camera.jpg " width="10" height="10" alt="" />
+                    <p>iPictureStore</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+    </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $(document).foundation();
+        })
+    </script>
+    </ul>
+    <!-- 翻页按钮 -->
+    <!-- <div class="page-icon">
+        <span class="page-disabled"><i></i>上一页</span>
+        <span class="page-current">1</span>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">7</a>
+        ……
+        <a href="#">...</a>
+        <a href="#">10</a>
+        <a class="page-next" href="#">下一页<i></i></a>
+    </div> -->
+    <!--尾部-->
+    <br />
+    <br />
+    <div style="text-align: center;">
+        &copy; 2021 iPictureStore
+        <a href="#">关于图片仓库</a> |
+        <a href="contect.html">联系我们</a> |
+    </div>
+    <br />
+</body>
+
+</html>
