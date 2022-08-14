@@ -6,6 +6,8 @@
 
 感谢大家对 图片仓库 的支持与鼓励。
 
+引用了他人的代码并对其进行了优化。
+
 # iPictureStore
 iPictureStore is a website that you can see many beautiful and nice pictures in it.
 ### iPictureStore Home Page
@@ -13,3 +15,5 @@ At the top of the photo warehouse is a large picture frame, which will display a
 The lower half of the picture warehouse is a selection of pictures, click to see the larger picture, right click to save to the computer.
 
 Thanks for your support and encoragement.
+
+Reference other's code and changed description by cleverhao
